@@ -1,2 +1,2 @@
 # frontend_development
-This repo will be used to learn frontend technlogy concepts.
+This repo will be used to learn frontend technology concepts.
