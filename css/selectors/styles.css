@@ -1,0 +1,40 @@
+/* Element selector */
+article { 
+    background-color: hsl(25,100%, 50%)
+}
+
+/* Id selector */
+#featured {
+    background-color: #faa;
+}
+
+/* Class selector */
+.featured {
+    background-color: #ccc;
+}
+
+/* Attribute selector */
+a[href="https://youtube.com"] {
+    color: brown
+}
+
+/* Combinator selectors */
+/* - Descendant Combinator (Each specified child) */
+div p {
+    background-color: aqua;
+}
+
+/* - Child Combinator */
+section > p {
+    background-color: yellowgreen;
+}
+
+/* Next sibling combinator */
+section + p {
+    background-color: chocolate;
+}
+
+/* Subsequent-sibling combinator */
+div ~ p {
+    background-color: darkgoldenrod;
+}
